@@ -6,6 +6,7 @@
 
     <hr />
     <p v-html="rawHtml">
+        <span>有xss风险</span>
       <span>【注意】使用v-html之后,将会覆盖子元素</span>
     </p>
   </div>

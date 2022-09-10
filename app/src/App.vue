@@ -5,6 +5,12 @@
     <TplDemo/>
      <ComputedDemo/> 
      <WatchDemo/>
+     <ClassDemo/>
+     <ConditionDemo/>
+    <!-- <ListDemo/> -->
+    <EventDemo/>
+     
+
   </div>
 </template>
 
@@ -14,13 +20,22 @@
 import TplDemo from '/src/components/baseUse/TplDemo'
 import ComputedDemo from '/src/components/baseUse/ComputedDemo'
 import WatchDemo from '/src/components/baseUse/WatchDemo'
+import ClassDemo from '/src/components/baseUse/ClassDemo'
+import ConditionDemo from '/src/components/baseUse/ConditionDemo'
+// import ListDemo from '/src/components/baseUse/ListDemo'
+import EventDemo from '/src/components/baseUse/EventDemo'
+
 export default {
   name: 'App',
   components: {
     // HelloWorld
     TplDemo,
     ComputedDemo,
-    WatchDemo
+    WatchDemo,
+    ClassDemo,
+    ConditionDemo,
+  //  ListDemo
+  EventDemo
   }
 }
 </script>

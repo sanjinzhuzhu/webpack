@@ -50,7 +50,9 @@ export default {
   beforeDestroy(){
     //及时解绑自定义事件，否则可能造成内存泄漏
     event.$off('onAddTtile',this.addTitleHandler)
+
   }
+  
 };
 </script>
 

@@ -8,6 +8,7 @@
 
 <script>
 
+
 import Input from "./Input";
 import List from "./List";
 
@@ -49,6 +50,12 @@ export default {
   mounted() {
     console.log("index mounted");
   },
+  beforeUpdate(){
+    console.log('index beforeUpdate');
+  },
+  updated(){
+    console.log('index updated');
+  }
 };
 </script>
 

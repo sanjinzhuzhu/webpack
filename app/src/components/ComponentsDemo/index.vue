@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hr><h3>组件通讯</h3>
+    <hr><h3>一、组件通讯</h3>
     <Input @add="addHandler" />
     <List :list="list" @delete="deleteHandler" />
   </div>

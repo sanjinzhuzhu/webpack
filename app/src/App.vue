@@ -9,7 +9,7 @@
      <ConditionDemo/>
     <!-- <ListDemo/> -->
     <EventDemo/>
-     
+     <ComponentsDemo/>
 
   </div>
 </template>
@@ -25,6 +25,8 @@ import ConditionDemo from '/src/components/baseUse/ConditionDemo'
 // import ListDemo from '/src/components/baseUse/ListDemo'
 import EventDemo from '/src/components/baseUse/EventDemo'
 
+import ComponentsDemo from '/src/components/ComponentsDemo'
+
 export default {
   name: 'App',
   components: {
@@ -35,7 +37,8 @@ export default {
     ClassDemo,
     ConditionDemo,
   //  ListDemo
-  EventDemo
+  EventDemo,
+  ComponentsDemo
   }
 }
 </script>

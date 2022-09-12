@@ -54,6 +54,7 @@ import ScopedSlotDemo from "./ScopedSlotDemo";
 import NameSlot from "./NameSlot";
 import KeepAlive from "./KeepAlive";
 import MixinDemo from './MixinDemo'
+
 export default {
   components: {
     SlotDemo,

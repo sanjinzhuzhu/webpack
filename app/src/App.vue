@@ -10,7 +10,7 @@
     <!-- <ListDemo/> -->
     <EventDemo />
     <ComponentsDemo />
-    <AdvanceUse />
+   <AdvanceUse/>
   </div>
 </template>
 
@@ -26,6 +26,7 @@ import ConditionDemo from "/src/components/baseUse/ConditionDemo";
 import EventDemo from "/src/components/baseUse/EventDemo";
 import ComponentsDemo from "/src/components/ComponentsDemo";
 import AdvanceUse from "/src/components/AdvanceUse";
+
 export default {
   name: "App",
   components: {
